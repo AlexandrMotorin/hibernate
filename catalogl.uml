@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>c742419c-a08b-4426-9fcf-8741717ab91a.TABLE:postgres.public.prop_val</OriginalElement>
+  <nodes>
+    <node x="-51.46739130434787" y="154.45652173913044">c742419c-a08b-4426-9fcf-8741717ab91a.TABLE:postgres.public.rubric_props2</node>
+    <node x="-66.96739130434787" y="-75.39130434782606">c742419c-a08b-4426-9fcf-8741717ab91a.TABLE:postgres.public.props2</node>
+    <node x="1220.0" y="805.0">c742419c-a08b-4426-9fcf-8741717ab91a.TABLE:postgres.public.rubric</node>
+    <node x="158.2989130434784" y="267.5">c742419c-a08b-4426-9fcf-8741717ab91a.TABLE:postgres.public.rubric_item2</node>
+    <node x="376.2173913043481" y="117.30434782608702">c742419c-a08b-4426-9fcf-8741717ab91a.TABLE:postgres.public.prop_val_item</node>
+    <node x="199.7500000000001" y="-75.39130434782606">c742419c-a08b-4426-9fcf-8741717ab91a.TABLE:postgres.public.prop_val</node>
+    <node x="1428.0" y="805.0">c742419c-a08b-4426-9fcf-8741717ab91a.TABLE:postgres.public.item</node>
+    <node x="380.6847826086959" y="-75.39130434782606">c742419c-a08b-4426-9fcf-8741717ab91a.TABLE:postgres.public.values</node>
+    <node x="-66.96739130434787" y="361.69565217391306">c742419c-a08b-4426-9fcf-8741717ab91a.TABLE:postgres.public.rubric2</node>
+    <node x="348.68478260869597" y="385.1739130434783">c742419c-a08b-4426-9fcf-8741717ab91a.TABLE:postgres.public.item2</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="c742419c-a08b-4426-9fcf-8741717ab91a.TABLE:postgres.public.rubric_props2" target="c742419c-a08b-4426-9fcf-8741717ab91a.TABLE:postgres.public.rubric2" relationship="REFERENCES">
+      <point x="33.0" y="-50.5" />
+      <point x="47.53260869565213" y="226.31521739130434" />
+      <point x="14.53260869565213" y="226.31521739130434" />
+      <point x="14.53260869565213" y="387.9565217391305" />
+      <point x="55.28260869565213" y="387.9565217391305" />
+      <point x="40.75" y="61.5" />
+    </edge>
+    <edge source="c742419c-a08b-4426-9fcf-8741717ab91a.TABLE:postgres.public.prop_val_item" target="c742419c-a08b-4426-9fcf-8741717ab91a.TABLE:postgres.public.prop_val" relationship="REFERENCES">
+      <point x="33.25" y="-50.5" />
+      <point x="475.9673913043481" y="161.7173913043479" />
+      <point x="255.7500000000001" y="161.7173913043479" />
+      <point x="0.0" y="50.5" />
+    </edge>
+    <edge source="c742419c-a08b-4426-9fcf-8741717ab91a.TABLE:postgres.public.rubric_item2" target="c742419c-a08b-4426-9fcf-8741717ab91a.TABLE:postgres.public.item2" relationship="REFERENCES">
+      <point x="31.0" y="-50.5" />
+      <point x="251.2989130434784" y="307.0" />
+      <point x="381.64130434782646" y="307.0" />
+      <point x="381.64130434782646" y="477.9565217391305" />
+      <point x="430.18478260869597" y="477.9565217391305" />
+      <point x="0.0" y="61.5" />
+    </edge>
+    <edge source="c742419c-a08b-4426-9fcf-8741717ab91a.TABLE:postgres.public.prop_val" target="c742419c-a08b-4426-9fcf-8741717ab91a.TABLE:postgres.public.values" relationship="REFERENCES">
+      <point x="28.0" y="-50.5" />
+      <point x="283.7500000000001" y="-5.173913043478265" />
+      <point x="468.34782608695656" y="-5.173913043478265" />
+      <point x="468.34782608695656" y="25.608695652173935" />
+      <point x="0.0" y="50.5" />
+    </edge>
+    <edge source="c742419c-a08b-4426-9fcf-8741717ab91a.TABLE:postgres.public.rubric2" target="c742419c-a08b-4426-9fcf-8741717ab91a.TABLE:postgres.public.rubric2" relationship="REFERENCES">
+      <point x="-40.75" y="61.5" />
+      <point x="-26.21739130434787" y="504.6956521739131" />
+      <point x="-86.96739130434787" y="504.6956521739131" />
+      <point x="-86.96739130434787" y="423.19565217391306" />
+      <point x="-81.5" y="-0.0" />
+    </edge>
+    <edge source="c742419c-a08b-4426-9fcf-8741717ab91a.TABLE:postgres.public.rubric_props2" target="c742419c-a08b-4426-9fcf-8741717ab91a.TABLE:postgres.public.props2" relationship="REFERENCES">
+      <point x="-33.0" y="-50.5" />
+      <point x="-26.21739130434787" y="154.45652173913044" />
+      <point x="-40.75" y="50.5" />
+    </edge>
+    <edge source="c742419c-a08b-4426-9fcf-8741717ab91a.TABLE:postgres.public.rubric_item2" target="c742419c-a08b-4426-9fcf-8741717ab91a.TABLE:postgres.public.rubric2" relationship="REFERENCES">
+      <point x="-31.0" y="-50.5" />
+      <point x="189.2989130434784" y="307.0" />
+      <point x="55.28260869565213" y="307.0" />
+      <point x="40.75" y="61.5" />
+    </edge>
+    <edge source="c742419c-a08b-4426-9fcf-8741717ab91a.TABLE:postgres.public.prop_val_item" target="c742419c-a08b-4426-9fcf-8741717ab91a.TABLE:postgres.public.item2" relationship="REFERENCES">
+      <point x="-33.25" y="-50.5" />
+      <point x="409.4673913043481" y="207.73913043478262" />
+      <point x="447.72826086956564" y="207.73913043478262" />
+      <point x="447.72826086956564" y="442.7391304347826" />
+      <point x="430.18478260869597" y="442.7391304347826" />
+      <point x="0.0" y="61.5" />
+    </edge>
+    <edge source="c742419c-a08b-4426-9fcf-8741717ab91a.TABLE:postgres.public.prop_val" target="c742419c-a08b-4426-9fcf-8741717ab91a.TABLE:postgres.public.props2" relationship="REFERENCES">
+      <point x="-28.0" y="-50.5" />
+      <point x="227.7500000000001" y="-6.9130434782608745" />
+      <point x="55.28260869565213" y="-6.9130434782608745" />
+      <point x="40.75" y="50.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.15" showDependencies="false" x="280.9999999999997" y="243.95652173913038" />
+  <SelectedNodes>
+    <node>c742419c-a08b-4426-9fcf-8741717ab91a.TABLE:postgres.public.prop_val_item</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Columns</Category>
+    <Category>Comments</Category>
+    <Category>Key columns</Category>
+    <Category>Virtual foreign keys</Category>
+  </Categories>
+</Diagram>
+
